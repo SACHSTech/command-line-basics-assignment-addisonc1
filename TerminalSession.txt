@@ -34,4 +34,5 @@ command-line-basics-assignment-addisonc1-3  myfile2.txt  _test_runner.py
  rm -r LinuxExercise
  ls
 README.md  TerminalSession.txt
- 
+  ls ~
+command-line-basics-assignment-addisonc1-3  myfile2.txt  _test_runner.py

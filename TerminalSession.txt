@@ -1,1 +1,37 @@
-
+GNU bash, version 4.4.20(1)-release (x86_64-pc-linux-gnu)
+ pwd
+/home/runner/command-line-basics-assignment-addisonc1-3
+ mkdir LinuxExercise
+ ls
+LinuxExercise  README.md  TerminalSession.txt
+ cd LinuxExercise
+ pwd
+/home/runner/command-line-basics-assignment-addisonc1-3/LinuxExercise
+ touch myfile.txt
+ ls
+myfile.txt
+ echo hello, this is my new file >> myfile.txt
+ cat myfile.txt
+hello, this is my new file
+ ls
+myfile.txt
+ cp myfile.txt myfile_copy.txt
+ ls
+myfile_copy.txt  myfile.txt
+ mv myfile_copy.txt myfile2.txt
+ ls
+myfile2.txt  myfile.txt
+ mv myfile2.txt ~
+ ls
+myfile.txt
+ ls ~
+command-line-basics-assignment-addisonc1-3  myfile2.txt  _test_runner.py
+ pwd
+/home/runner/command-line-basics-assignment-addisonc1-3/LinuxExercise
+ cd ..
+ pwd
+/home/runner/command-line-basics-assignment-addisonc1-3
+ rm -r LinuxExercise
+ ls
+README.md  TerminalSession.txt
+ 
